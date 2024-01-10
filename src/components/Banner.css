@@ -3,6 +3,19 @@ section {
     max-width: 100%;
     min-height: 100vh;
     position: relative;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    min-height: 40vh;
+    max-height: 94vh;
+    min-width: 70vw;
+    max-width: 80vw;
+    
   }
   
   .banner {
@@ -70,9 +83,10 @@ section {
   .FotoD {
     width: 100%;
     font-size: 1rem;
-    margin-left: 5%;
+    
     color: white;
     font-family: Arial, Helvetica, sans-serif;
+    padding:0 10px;
   }
   
   .FotoD a {

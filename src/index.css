@@ -33,9 +33,9 @@ html {
   scroll-behavior: smooth;
 }
 
-section {
+/* section {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
+} */

@@ -19,23 +19,23 @@ function Navbar() {
                         <img className="logo-img-navbar" src={logoImage} alt="Logo_Personal"/>
                     </a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu"
-                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
 
                     <div className="collapse navbar-collapse" id="menu">
                         <ul className="navbar-nav ms-auto align-items-center justify-content-center">
                             <li className="nav-item">
-                                <a className="nav-link" onClick={() => scrollToSection('inicio')}>Inicio</a>
+                                <a className="nav-link" onClick={() => scrollToSection('inicio')} role="button" href="#menu" data-bs-toggle="collapse" aria-expanded="false" aria-controls="menu">Inicio</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link"  onClick={() => scrollToSection('sobreMi')}>Sobre mi</a>
+                            <a className="nav-link"  onClick={() => scrollToSection('sobreMi')} role="button" href="#menu" data-bs-toggle="collapse" aria-expanded="false" aria-controls="menu">Sobre mi</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link"  onClick={() => scrollToSection('habilidades')}>Habilidades</a>
+                        <a className="nav-link"  onClick={() => scrollToSection('habilidades')} role="button" href="#menu" data-bs-toggle="collapse" aria-expanded="false" aria-controls="menu">Habilidades</a>
                     </li >
                     <li className="nav-item">
-                        <a className="nav-link"  onClick={() => scrollToSection('proyectos')}>Proyectos</a>
+                        <a className="nav-link"  onClick={() => scrollToSection('proyectos')} role="button" href="#menu" data-bs-toggle="collapse" aria-expanded="false" aria-controls="menu">Proyectos</a>
                 </li >
             </ul >
         </div >
